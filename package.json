@@ -10,7 +10,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/JoakimSM/action-instance-version.git"
+        "url": "git+https://github.com/dhis2/action-instance-version.git"
     },
     "keywords": [
         "frontend",
@@ -19,9 +19,9 @@
     "author": "Joakim Storloekken Melseth",
     "license": "BSD-3-Clause",
     "bugs": {
-        "url": "https://github.com/JoakimSM/action-instance-version/issues"
+        "url": "https://github.com/dhis2/action-instance-version/issues"
     },
-    "homepage": "https://github.com/JoakimSM/action-instance-version#readme",
+    "homepage": "https://github.com/dhis2/action-instance-version#readme",
     "devDependencies": {
         "@actions/core": "^1.9.1",
         "@dhis2/cli-style": "^10.4.1",
