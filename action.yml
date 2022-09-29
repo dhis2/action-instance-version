@@ -1,0 +1,18 @@
+name: 'Get instance version'
+description: 'Get the version of a DHIS2 instance'
+inputs:
+    instance-url:
+        description: 'The URL to the instance'
+        required: true
+    username:
+        description: 'The DHIS2 username for authentication'
+        required: true
+    password:
+        description: 'The DHIS2 password for authentication'
+        required: true
+outputs:
+    version:
+        description: 'The instance version'
+runs:
+    using: 'node16'
+    main: 'dist/index.js'
