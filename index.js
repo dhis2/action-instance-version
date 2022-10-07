@@ -19,6 +19,11 @@ const main = async () => {
             .join('/')
 
         const response = await fetch(url, params)
+        if (!response.ok) {
+            throw new Error(
+                `HTTP Error Response: ${response.status} ${response.statusText}`
+            )
+        }
         const version = (await response.json()).version
         core.info(`output-version: ${version}`)
         core.setOutput('version', version)

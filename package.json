@@ -1,6 +1,6 @@
 {
     "name": "action-instance-version",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Github action for getting the version of a DHIS2 instance",
     "main": "index.js",
     "scripts": {
