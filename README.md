@@ -25,7 +25,7 @@ The DHIS2 instance version.
 ## Example
 
 ```
-uses: dhis2/action-instance-version@1
+uses: dhis2/action-instance-version@v1
 with:
     instance-url: [URL]
     username: [username]
