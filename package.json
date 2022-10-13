@@ -1,6 +1,6 @@
 {
     "name": "action-instance-version",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Github action for getting the version of a DHIS2 instance",
     "main": "index.js",
     "scripts": {
@@ -23,7 +23,7 @@
     },
     "homepage": "https://github.com/dhis2/action-instance-version#readme",
     "devDependencies": {
-        "@actions/core": "^1.9.1",
+        "@actions/core": "^1.10.0",
         "@dhis2/cli-style": "^10.4.1",
         "@vercel/ncc": "^0.34.0",
         "node-fetch": "2"
